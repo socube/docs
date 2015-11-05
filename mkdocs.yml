@@ -1,0 +1,62 @@
+site_name: DataTorrent Documentation
+google_analytics: ['UA-44586211-1', 'docs.datatorrent.com']
+site_favicon: favicon.ico
+theme: readthedocs
+pages:
+- DataTorrent RTS: index.md
+- Demos:
+    - Videos: demo_videos.md
+    - Running Apps: demos.md
+- Sandbox: sandbox.md
+- Development:
+    - Creating Applications: create.md
+    - Tutorials:
+        - Top N Words:
+            - Introduction: tutorials/topnwords.md
+            - Development Environment: tutorials/topnwords-c1.md
+            - Building in Java: tutorials/topnwords-c2.md
+            - Building with dtAssemble: tutorials/topnwords-c3.md
+            - Monitoring with dtManage: tutorials/topnwords-c4.md
+            - Visualizing with dtDashboard: tutorials/topnwords-c5.md
+            - Appendix: tutorials/topnwords-c6.md
+        - Sales Dimenions: tutorials/sales_dimensions.md
+    - Apex Development Setup: apex_development_setup.md
+    - Applications: coming_soon.md
+    - Application Packages: application_packages.md
+    - Configuration Packages: configuration_packages.md
+    - Operators: operator_development.md
+    - Library Operators:
+        - File splitter: operators/io/file_splitter.md
+        - Block reader: operators/io/block_reader.md
+        - File Input, S3, NFS: coming_soon.md
+        - File Output: coming_soon.md
+        - Deduper: coming_soon.md
+        - HDHT: coming_soon.md
+        - DimensionsStore: coming_soon.md
+        - DimenstionComputation: coming_soon.md
+        - KafkaInput: coming_soon.md
+        - KafkaOutput: coming_soon.md
+        - Solace: coming_soon.md
+        - JMS: coming_soon.md
+        - HBase: coming_soon.md
+    - REST API: dtgateway_api.md
+    - AutoMetric API: autometrics.md 
+    - Scalable Design: coming_soon.md
+- Applications:
+    - dtIngest: dtingest.md
+- Platform:
+    - RTS: rts.md
+    - dtManage: dtmanage.md
+    - dtAssemble: dtassemble.md
+    - dtDashboard: dtdashboard.md
+    - dtGateway: coming_soon.md
+    - Apache Apex: apex.md
+    - Apache Apex-Malhar: apex_malhar.md
+- Deployment and Operations:
+    - Installation: installation.md
+    - Configuration: coming_soon.md
+    - Security: dtgateway_security.md
+    - dtCli: coming_soon.md
+    - Troubleshooting: coming_soon.md
+- Glossary: glossary.md
+- Resources: additional_docs.md
