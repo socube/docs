@@ -9,6 +9,7 @@ pages:
     - Running Apps: demos.md
 - Sandbox: sandbox.md
 - Development:
+    - Creating Applications: create.md
     - Beginner's Guide: beginner.md
     - Tutorials:
         - Top N Words:

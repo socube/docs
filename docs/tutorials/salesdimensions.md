@@ -132,35 +132,31 @@ To build an application
     2. Add the following `repositories` element at the top level (i.e. as a
        child of the `project` element):
 
-        ```
-        <!-- repository to provide the DataTorrent artifacts -->
-        <repositories>
-          <repository>
-            <id>datatorrent</id>
-            <name>DataTorrent Release Repository</name>
-            <url>https://www.datatorrent.com/maven/content/repositories/releases/</url>
-            <snapshots>
-              <enabled>false</enabled>
-            </snapshots>
-          </repository>
-        </repositories>
-        ```
+            <!-- repository to provide the DataTorrent artifacts -->
+            <repositories>
+              <repository>
+                <id>datatorrent</id>
+                <name>DataTorrent Release Repository</name>
+                <url>https://www.datatorrent.com/maven/content/repositories/releases/</url>
+                <snapshots>
+                  <enabled>false</enabled>
+                </snapshots>
+              </repository>
+            </repositories>
 
     3. Add these lines to the dependencies section at the end of the `pom.xml`
     file (the version number might need to change as new releases come out):
 
-        ```
-        <dependency>
-            <groupId>com.datatorrent</groupId>
-            <artifactId>dt-contrib</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.datatorrent</groupId>
-            <artifactId>dt-library</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-        ```
+            <dependency>
+                <groupId>com.datatorrent</groupId>
+                <artifactId>dt-contrib</artifactId>
+                <version>3.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.datatorrent</groupId>
+                <artifactId>dt-library</artifactId>
+                <version>3.3.0</version>
+            </dependency>
 
     4. Finally change `apex.version` to 3.2.0-incubating. To recapitulate, we are
        using versions `3.3.0` for `dt-contrib` and `dt-library`, `3.3.0-incubating`
